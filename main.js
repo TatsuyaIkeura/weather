@@ -1,7 +1,7 @@
 $(document).ready(function() {
 // 天気予報
 $.ajax({
-url: 'https://json2jsonp.com/?url=http://weather.livedoor.com/forecast/webservice/json/v1?city=130010',
+url: 'https://json2jsonp.com/?url=http://weather.livedoor.com/forecast/webservice/json/v1?city=400040',
 type: 'GET',
 dataType: 'jsonp'
 })
